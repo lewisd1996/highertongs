@@ -1,0 +1,217 @@
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ * 
+ *
+ * Theme Name: SRPACDY
+ */
+
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+.background-video-overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.offer-icon {
+    margin-bottom: 2rem;
+}
+
+.bgindex,
+.bgwithout {
+    z-index: -999;
+}
+
+.bgindex {
+    background: url(../../19.png) repeat;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.logo-index {
+    margin: 40px 0;
+    position: relative;
+    display: inherit;
+}
+
+.nav-content {
+    left: 0px;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.nav-content a {
+    background-clip: padding-box;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+    display: block;
+    font-family: Bebas Neue;
+    font-size: 135px;
+    line-height: 100px;
+    letter-spacing: 30px;
+    margin: 0 0 20px 0;
+    outline: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease-in-out;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.nav-content a:hover {
+    border: 8px solid #000;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.99);
+}
+
+
+/* Main Items */
+
+.bg-left a {
+    background: url(../images/background/05.jpg) no-repeat center center;
+    background-size: 100%;
+    margin: 0 0 30px;
+}
+
+.bg-right a {
+    background: url(../images/background/02.jpg) no-repeat center center;
+    background-size: 100%;
+    margin: 0 0 30px;
+}
+
+
+/* ===================================
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : 3.2.7
+	Site	: www.buildinternet.com/project/supersized
+	
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#supersized {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+}
+
+#supersized img {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: none;
+    outline: none;
+    border: none;
+}
+
+#supersized.speed img {
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+}
+
+
+/*Speed*/
+
+#supersized.quality img {
+    -ms-interpolation-mode: bicubic;
+    image-rendering: optimizeQuality;
+}
+
+
+/*Quality*/
+
+#supersized li {
+    display: block;
+    list-style: none;
+    z-index: -30;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+}
+
+#supersized li.activeslide {
+    z-index: -10;
+}
+
+#supersized li.prevslide {
+    z-index: -20;
+}
+
+#supersized li.activeslide {
+    z-index: -10;
+}
+
+#supersized li.prevslide img,
+#supersized li.activeslide img {
+    display: inline;
+}
+
+
+/* =================================== */
